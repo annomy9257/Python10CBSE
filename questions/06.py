@@ -1,0 +1,24 @@
+"""
+Write a python program to print the multiplication table of a number 
+"""
+
+num = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(f"{num} \u00D7 {i} = {num * i}")
+
+"""
+OUTPUT:
+
+Enter a number: 2
+2 × 1 = 2
+2 × 2 = 4
+2 × 3 = 6
+2 × 4 = 8
+2 × 5 = 10
+2 × 6 = 12
+2 × 7 = 14
+2 × 8 = 16
+2 × 9 = 18
+2 × 10 = 20
+"""

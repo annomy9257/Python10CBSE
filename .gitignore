@@ -1,0 +1,21 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (the likely source of your 1,6 MiB upload)
+.venv/
+venv/
+ENV/
+env/
+
+# Editor and IDE specific files
+.vscode/
+.idea/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Large data/log files (optional safety)
+*.log
