@@ -1,7 +1,5 @@
 """
-Write a program to generate a series of marks of 6 students.
-Give moderation up to 5 marks of those who are having
-marks < 90 and print the new list of the marks. 
+Write a python program to check whether a number is even or odd.
 """
 
 num = int(input("Enter a number: "))
